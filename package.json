@@ -1,0 +1,18 @@
+{
+  "name": "aliasing-module-path-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias"
+  },
+  "author": "Muhammad Harits Syaifulloh",
+  "license": "ISC",
+  "devDependencies": {
+    "link-module-alias": "^1.1.5"
+  },
+  "_moduleAliases": {
+    "@routes": "app/Interfaces/Http/Routes",
+    "@middlewares": "app/Application/Middlewares"
+  }
+}
